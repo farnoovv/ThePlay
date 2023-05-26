@@ -3,13 +3,47 @@
 @section('container')
 
 <!-- Masthead-->
-        <header class="masthead  bg-primary text-white text-center rounded-2" >
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5 img-fluid " src="assets/img/banner1.png" style="width:1200px" alt="..." />
+        <div class="masthead  bg-primary  text-center rounded-2" >
+          <div class="container d-flex  flex-column">
+            <h3 class="font-weight-bold mb-2">Recommended for You</h3>
+
+            <div class="mt-5 container row">
+              <div class="col-lg-4 col-md-6  mb-lg-0">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                  <div class="card-body p-4"><img src="assets/img/explore1.png" alt="" class="img-fluid d-block mx-auto mb-3">
+                    <h6> <a href="#" class="text-dark">Game 1</a></h6>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-lg-0">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                  <div class="card-body p-4"><img src="assets/img/explore2.png" alt="" class="img-fluid d-block mx-auto mb-3">
+                    <h6> <a href="#" class="text-dark">Game 2</a></h6>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-lg-0">
+                <!-- Card-->
+                <div class="card rounded shadow-sm border-0">
+                  <div class="card-body p-4"><img src="assets/img/explore3.png" alt="" class="img-fluid d-block mx-auto mb-3">
+                    <h6> <a href="#" class="text-dark">Game 3</a></h6>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
             </div>
-        </header>
+          </div>
+        </div>
         <div class="mx-lg-5 my-lg-5">
+          
         <!-- First Row [Prosucts]-->
         <h2 class="font-weight-bold mb-2">Trending</h2>
         <p class="font-italic text-muted mb-4">Explore top seller games this week!</p>
